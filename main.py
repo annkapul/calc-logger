@@ -15,11 +15,11 @@ if __name__ == '__main__':
     logging.info(calc.Multiply(-16, 0.00005))
 
     logging.info(calc.Sum(complex(1, 2), complex(1, 2)))
-    logging.info(calc.Divide(complex(1, 2), complex(1, 2)))
+    logging.info(calc.Divide(complex(1, 10), complex(1, 3)))
     logging.info(calc.Multiply(complex(5, 3), complex(1, 2)))
     logging.info(calc.Subtract(complex(7, 6), complex(1, 2)))
 
-    logging.info(calc.Subtract(complex(1, 2), 2))
+    logging.info(calc.Subtract(complex(-1, -2), -2))
 
     try:
         logging.info(calc.Divide('110', '10'))
